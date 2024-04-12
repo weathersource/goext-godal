@@ -9,9 +9,9 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/airbusgeo/godal"
-	"github.com/airbusgeo/osio"
-	"github.com/airbusgeo/osio/gcs"
+	godal "github.com/weathersource/goext-godal"
+	osio "github.com/weathersource/goext-osio"
+	"github.com/weathersource/goext-osio/gcs"
 )
 
 var ctx context.Context

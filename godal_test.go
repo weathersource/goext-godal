@@ -31,8 +31,8 @@ import (
 	"time"
 
 	"cloud.google.com/go/storage"
-	"github.com/airbusgeo/osio"
-	"github.com/airbusgeo/osio/gcs"
+	osio "github.com/weathersource/goext-osio"
+	"github.com/weathersource/goext-osio/gcs"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"google.golang.org/api/option"
